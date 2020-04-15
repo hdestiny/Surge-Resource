@@ -1,17 +1,13 @@
+# > CN
+DOMAIN-SUFFIX,cn
+
 # App
 USER-AGENT,WeChat*
 USER-AGENT,MicroMessenger*
 USER-AGENT,QQ*
 USER-AGENT,*WeRead*
 USER-AGENT,MApi*
-# Bilibili
-USER-AGENT,*BiliApp*
-USER-AGENT,bili-universal*
-DOMAIN,www.bilibili.com
-DOMAIN,app.bilibili.com
-DOMAIN,bangumi.bilibili.com
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,bilibili.com
+
 # Netease Music
 USER-AGENT,NeteaseMusic*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
@@ -40,12 +36,6 @@ DOMAIN-SUFFIX,crashlytics.com
 USER-AGENT,AppleNews*
 IP-CIDR,17.0.0.0/8,no-resolve
 
-
-DOMAIN-KEYWORD,baidupcs
-
-# > Beplay
-DOMAIN-KEYWORD,beplay
-
 # > Blizzard
 USER-AGENT,hearthstone*
 DOMAIN,cdp.cloud.unity3d.com
@@ -54,7 +44,6 @@ DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
 # > Microsoft
-DOMAIN-SUFFIX,azure.cn
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,outlook.com
@@ -68,7 +57,6 @@ DOMAIN,officecdn-microsoft-com.akamaized.net
 DOMAIN-KEYWORD,officecdn
 
 DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,microsoftstore.com.cn
 DOMAIN-SUFFIX,msecnd.net
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
@@ -94,11 +82,9 @@ IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
 
-DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
-DOMAIN-SUFFIX,360.cn
 DOMAIN-SUFFIX,360.com
 DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,360buyimg.com
@@ -127,9 +113,6 @@ DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,aweme.snssdk.com
 DOMAIN-SUFFIX,bababian.com
-DOMAIN-SUFFIX,baidu.com
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,beatsbydre.com
 DOMAIN-SUFFIX,bet365.com
@@ -262,7 +245,6 @@ DOMAIN-SUFFIX,ruguoapp.com
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,sinaapp.com
-DOMAIN-SUFFIX,sinaimg.cn
 DOMAIN-SUFFIX,sinaimg.com
 DOMAIN-SUFFIX,sm.ms
 DOMAIN-SUFFIX,smzdm.com
@@ -301,7 +283,6 @@ DOMAIN-SUFFIX,wandoujia.com
 DOMAIN-SUFFIX,weather.bjango.com
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,webqxs.com
-DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weico.cc
 DOMAIN-SUFFIX,weiphone.com
@@ -364,7 +345,6 @@ DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youku.com
-
 USER-AGENT,%E4%BC%98%E9%85%B7*
 
 # >> Baidu
@@ -372,27 +352,23 @@ DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidubcr.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
-
+DOMAIN-SUFFIX,bdimg.com
 
 # >> bilibili
+USER-AGENT,*BiliApp*
+USER-AGENT,bili-universal*
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,bilibili.cn
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 
-# >> Blizzard
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,blizzard.com
-
 DOMAIN,blzddist1-a.akamaihd.net
 
 # >> ByteDance
-DOMAIN-SUFFIX,bytecdn.cn
 DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,pstatp.com
@@ -405,7 +381,6 @@ DOMAIN-SUFFIX,cctvpic.com
 DOMAIN-SUFFIX,livechina.com
 
 # >> ChinaNet
-DOMAIN-SUFFIX,189.cn
 DOMAIN-SUFFIX,21cn.com
 
 # > DandanZan
@@ -425,17 +400,6 @@ DOMAIN-SUFFIX,udache.com
 # >> HunanTV
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,mgtv.com
-
-# >> IP Query
-DOMAIN,ip.bjango.com
-
-DOMAIN-SUFFIX,ip-cdn.com
-DOMAIN-SUFFIX,ip.cn
-DOMAIN-SUFFIX,ip.la
-DOMAIN-SUFFIX,ipip.net
-DOMAIN-SUFFIX,ipv6-test.com
-DOMAIN-SUFFIX,test-ipv6.com
-DOMAIN-SUFFIX,whatismyip.com
 
 # >> iQiyi
 DOMAIN-SUFFIX,71.am.com
@@ -461,7 +425,6 @@ DOMAIN-SUFFIX,meitustat.com
 # >> MI
 DOMAIN-SUFFIX,duokan.com
 DOMAIN-SUFFIX,mi-img.com
-DOMAIN-SUFFIX,mifile.cn
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,xiaomi.com
@@ -479,21 +442,17 @@ DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,lofter.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,ydstatic.com
-
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,NeteaseMusic*
 
 # >> Sina
 DOMAIN-SUFFIX,sina.com
-DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
 
 # >> Sohu
-DOMAIN-SUFFIX,itc.cn
 DOMAIN-SUFFIX,sohu-inc.com
 DOMAIN-SUFFIX,sohu.com
-DOMAIN-SUFFIX,sohu.com.cn
 DOMAIN-SUFFIX,sohucs.com
 DOMAIN-SUFFIX,v-56.com
 
@@ -517,7 +476,6 @@ DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,igamecj.com
 DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,myqcloud.com
-DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tencent.com
@@ -549,7 +507,6 @@ DOMAIN-SUFFIX,wangsu.com
 DOMAIN,cn.download.nvidia.com
 
 DOMAIN-SUFFIX,360in.com
-DOMAIN-SUFFIX,40017.cn
 DOMAIN-SUFFIX,51ym.me
 DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,abchina.com
@@ -575,7 +532,6 @@ DOMAIN-SUFFIX,chunyu.mobi
 DOMAIN-SUFFIX,chushou.tv
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbimg.com
-DOMAIN-SUFFIX,cmvideo.cn
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,dfcfw.com
 DOMAIN-SUFFIX,dida365.com
@@ -583,7 +539,6 @@ DOMAIN-SUFFIX,docschina.org
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,douyu.com
-DOMAIN-SUFFIX,douyucdn.cn
 DOMAIN-SUFFIX,dxycdn.com
 DOMAIN-SUFFIX,dytt8.net
 DOMAIN-SUFFIX,eastmoney.com
@@ -673,6 +628,20 @@ PROCESS-NAME,Transmission
 PROCESS-NAME,uTorrent
 PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
-
-# > CN
-DOMAIN-SUFFIX,cn
+DOMAIN-KEYWORD,baidupcs
+# Tencent Weiyun
+PROCESS-NAME,Weiyun
+# XunLei
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+PROCESS-NAME,DownloadService
+# bt
+DOMAIN-SUFFIX,smtp
+URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+# 360
+URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
+# Final
+GEOIP,CN,D
+RULE-SET,LAN,D
