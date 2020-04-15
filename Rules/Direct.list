@@ -40,6 +40,9 @@ DOMAIN-SUFFIX,crashlytics.com
 USER-AGENT,AppleNews*
 IP-CIDR,17.0.0.0/8,no-resolve
 
+
+DOMAIN-KEYWORD,baidupcs
+
 # > Beplay
 DOMAIN-KEYWORD,beplay
 
@@ -58,7 +61,24 @@ DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
+
+# >> Microsoft
+DOMAIN,officecdn.microsoft.com
+DOMAIN,officecdn-microsoft-com.akamaized.net
+DOMAIN-KEYWORD,officecdn
+
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftstore.com.cn
+DOMAIN-SUFFIX,msecnd.net
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,s-microsoft.com
+DOMAIN-SUFFIX,sfx.ms
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
 
 # > Prior
 DOMAIN,client.amplifi.com
@@ -445,24 +465,6 @@ DOMAIN-SUFFIX,mifile.cn
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,xiaomi.com
-
-# >> Microsoft
-DOMAIN,officecdn-microsoft-com.akamaized.net
-
-DOMAIN-KEYWORD,officecdn
-
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,microsoftstore.com.cn
-DOMAIN-SUFFIX,msecnd.net
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msftncsi.com
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,s-microsoft.com
-DOMAIN-SUFFIX,sfx.ms
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,visualstudio.com
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windowsupdate.com
 
 # Rainway
 DOMAIN,cya.gg
