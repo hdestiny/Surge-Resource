@@ -94,7 +94,7 @@ URL-REGEX,^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv
 URL-REGEX,^https?:\/\/free\.sinaimg\.cn\/u1\.img\.mobile\.sina\.cn
 URL-REGEX,^https?:\/\/simg\.s\.weibo\.com\/.+_ios\d{2}\.gif
 URL-REGEX,^https?:\/\/storage\.wax\.weibo\.com\/\w+\.(png|jpg|mp4)
-URL-REGEX,^https?:\/\/u1\.img\.mobile\.sina\.cn\/public\/files\/image\/\d{3}x\d{2,4}.+(png|jpg|mp4)
+URL-REGEX,"^https?:\/\/u1\.img\.mobile\.sina\.cn\/public\/files\/image\/\d{3}x\d{2,4}.+(png|jpg|mp4)"
 URL-REGEX,^https?:\/\/u1\.img\.mobile\.sina\.cn\/public\/files\/image\/\d{3}x\d+.+(png|jpg|mp4)
 URL-REGEX,^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new)
 URL-REGEX,^https?:\/\/.+\.mp4\?ccode=0902
