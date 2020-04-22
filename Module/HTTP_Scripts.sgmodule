@@ -96,9 +96,6 @@ Splice = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.co
 # > 轻颜相机
 轻颜相机 = requires-body=1,max-size=0,script-path=JS/qyxj.js,type=http-response,pattern=^https:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info
 
-# > Haitun wallet unlock vip
-海豚记账本🐬 = requires-body=1,max-size=0,script-path=JS/HTJZ.js,type=http-response,pattern=https:\/\/book\.haitunwallet\.com\/app\/vip\/status
-
 # > Youdao note unlock vip (By Alex0510)
 Youdao Note = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js,type=http-response,pattern=https://note.youdao.com/yws/(mapi/payment|api/self)
 
@@ -107,12 +104,6 @@ Termius = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.c
 
 # > Baidu netdisc unlocks online video play speed.
 Baidu Cloud = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js,type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user
-
-# > 彩云小译
-彩云小译 = requires-body=1,max-size=0,script-path=JS/caiyunai.js,type=http-response,pattern=^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user
-
-# > 彩云天气 (By Alex0510)
-彩云天气 = requires-body=1,max-size=0,script-path=JS/caiyun.js,type=http-response,pattern=https://biz.caiyunapp.com/v2/user\?app_name=weather
 
 # > 小小影视 Unlock vip
 小小影视 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js,type=http-response,pattern=https:\/\/ios\.xiaoxiaoapps\.com\/(vod\/reqplay\/|ucp/index|getGlobalData)
