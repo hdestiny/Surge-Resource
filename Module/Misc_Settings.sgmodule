@@ -41,24 +41,15 @@ api.smoot.apple.com.cn = script:dnspod
 
 [Header Rewrite]
 ^*.bdimg.com header-del Referer
-^*.qpic.cn header-replace User-Agent WeChat/6.5.22.32 CFNetwork/889.9 Darwin/17.2.0
+^*.qpic.cn header-replace User-Agent "WeChat/6.5.22.32 CFNetwork/889.9 Darwin/17.2.0"
 ^*.qpic.cn header-del Referer
 ^*.ph.126.net header-del Referer
 ^*.zhimg.com header-del Referer
-^https?://www.zhihu.com/question/ header-replace User-Agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.45 Safari/537.36"
+^https?:\/\/www\.zhihu\.com\/question header-replace User-Agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15"
+^https?://zhidao\.baidu\.com header-replace User-Agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15"
 
 [URL Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-
-^https?://coupon.m.jd.com/ https://coupon.m.jd.com/ 302
-^https?://h5.m.jd.com/ https://h5.m.jd.com/ 302
-^https?://item.m.jd.com/ https://item.m.jd.com/ 302
-^https?://m.jd.com/ https://m.jd.com/ 302
-^https?://newcz.m.jd.com/ https://newcz.m.jd.com/ 302
-^https?://p.m.jd.com/ https://p.m.jd.com/ 302
-^https?://so.m.jd.com/ https://so.m.jd.com/ 302
-^https?://union.click.jd.com/jda? http://union.click.jd.com/jda?adblock= header
-^https?://union.click.jd.com/sem.php? http://union.click.jd.com/sem.php?adblock= header
 
 ^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
 ^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
@@ -66,7 +57,6 @@ api.smoot.apple.com.cn = script:dnspod
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 ^https?:\/\/(www.)?suning\.com/ https://suning.com/ 302
 ^https?:\/\/(www.)?yhd\.com https://yhd.com/ 302
-^https?://m.taobao.com/ https://m.taobao.com/ 302
 
 [MITM]
 hostname = %APPEND% *.google.cn
