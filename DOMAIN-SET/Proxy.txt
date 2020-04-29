@@ -79,7 +79,7 @@ wego.here.com
 .google.com
 .gmail.com
 .blogspot.com
-.googleapis.cn
+.googleapis.com
 .cdninstagram.com
 .fb.me
 .fbcdn.net
