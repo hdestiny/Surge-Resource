@@ -1,4 +1,3 @@
-.cn
 .me.com
 .mzstatic.com
 .aaplimg.com
