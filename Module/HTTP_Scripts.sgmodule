@@ -23,10 +23,6 @@ YouTube = script-path=https://Choler.github.io/Surge/Script/YouTube.js,type=http
 # > 头条 (By Choler)
 头条 = type=http-response,pattern=^https?://[\s\S]*\.snssdk\.com/api/news/feed/v88/,requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/Toutiao.js
 
-# > Display netflix ratings（IMDb、douaban）
-Netflix IMDb Ratings = script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
-Netflix IMDb Ratings = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,type=http-response,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
-
 # > 知乎 (By Primovist)
 Zhihu = requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/ydzydzydz/Rules/master/Surge/resources/script/zhihu.js,type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(moments\?|topstory\/recommend|.*\/questions|market\/header)
 
@@ -83,7 +79,7 @@ Lightroom = requires-body=1,max-size=0,script-path=https://sub.jiaowoy.top/js/Li
 
 # > 小影
 VivaVideo = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js,type=http-response,pattern=^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip
-
+ 
 # > VUE video
 VUE = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js,type=http-response,pattern=https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
 
