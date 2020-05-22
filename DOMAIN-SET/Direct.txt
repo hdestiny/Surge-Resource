@@ -410,3 +410,8 @@ cn.download.nvidia.com
 .zhimg.com
 .zhuihd.com
 .baidupcs.com
+.bugsnag.com
+.asuscomm.com
+.adguard.org
+.ip.parts
+vx.link

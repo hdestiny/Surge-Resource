@@ -1,4 +1,12 @@
+.googleapis.com
+.gungho.jp
 .appsto.re
+.v2mm.tech
+.notion.so
+.loggly.com
+.intercom.io
+.intercomcdn.com
+.amplitude.com
 api-glb-sea.smoot.apple.com
 audiocontentdownload.apple.com
 beta.itunes.apple.com
@@ -57,6 +65,7 @@ news-edge.apple.com
 .ytimg.com
 .office365.com
 .windows.net
+.oracle.com
 ccmdl.adobe.com
 media.steampowered.com
 wego.here.com
@@ -67,7 +76,6 @@ wego.here.com
 .cloudfront.net
 .fb.com
 .newsblur.com
-.telegra.ph
 .cloudflareresolve.com
 .appspot.com
 .blogger.com
@@ -78,7 +86,6 @@ wego.here.com
 .google.com
 .googleusercontent.com
 .blogspot.com
-.googleapis.com
 .cdninstagram.com
 .fb.me
 .fbcdn.net
@@ -99,7 +106,6 @@ wego.here.com
 .line-scdn.net
 .naver.jp
 .abc.net.au
-.amazon.co.jp
 .apk-dl.com
 .apkpure.com
 .ask.com
@@ -118,6 +124,7 @@ wego.here.com
 .discordapp.net
 .dropbox.com
 .dropboxusercontent.com
+.dropboxapi.com
 .duckduckgo.com
 .feedly.com
 .flickr.com
@@ -152,7 +159,6 @@ wego.here.com
 .slideshare.net
 .soundcloud.com
 .steamcommunity.com
-.telegram.org
 .theinitium.com
 .tineye.com
 .tumblr.com
@@ -203,6 +209,7 @@ onedrive.live.com
 .allconnected.co
 .amazon.co
 .amazon.com
+.amazon.co.jp
 .amazonaws.com
 .ampproject.com
 .ampproject.net
@@ -263,7 +270,6 @@ onedrive.live.com
 .boxun.com
 .cachefly.net
 .cdn.angruo.com
-.cdn.segment.com
 .cdnst.net
 .celestrak.com
 .census.gov
@@ -445,7 +451,6 @@ onedrive.live.com
 .nih.gov
 .nintendo.com
 .nintendo.net
-.notion.so
 .novafile.com
 .nrk.no
 .nsstatic.net
@@ -723,3 +728,11 @@ onedrive.live.com
 .torproject.org
 .unfiltered.news
 .v2ex.com
+.t.me
+.tdesktop.com
+.telegra.ph
+.telegram.me
+.telegram.org
+.github.com
+.githubusercontent.com
+.nicegram.app
