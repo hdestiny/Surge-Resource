@@ -586,6 +586,7 @@ onedrive.live.com
 .trakt.tv
 .transparency.org
 .trello.com
+.trellocdn.com
 .trendsmap.com
 .trulyergonomic.com
 .trustasiassl.com

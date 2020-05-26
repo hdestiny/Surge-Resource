@@ -366,8 +366,6 @@ cn.download.nvidia.com
 .tietuku.com
 .tmzvps.com
 .totheglory.im
-.trello.com
-.trellocdn.com
 .ttmeiju.com
 .tudou.com
 .udacity.com
