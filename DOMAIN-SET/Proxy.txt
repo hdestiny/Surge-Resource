@@ -737,3 +737,4 @@ onedrive.live.com
 .github.com
 .githubusercontent.com
 .nicegram.app
+share.dmhy.org
