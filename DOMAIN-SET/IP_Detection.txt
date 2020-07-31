@@ -9,5 +9,6 @@ ip.istatmenus.app
 .ip-cdn.com
 .ip.la
 .ip.cn
+.ip.fm
 .ipv6-test.com
 .test-ipv6.com
